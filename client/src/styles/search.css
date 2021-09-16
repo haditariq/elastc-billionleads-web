@@ -1,0 +1,97 @@
+.main-search {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+}
+.search-btn {
+  margin-left: 10px;
+}
+.main {
+  border-bottom-style: solid;
+}
+
+.main-headings {
+  display: flex;
+}
+.sidebar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sort-by {
+  background-color: #f8f8f8;
+  cursor: pointer;
+  position: relative;
+}
+.options {
+  /* position: absolute; */
+  top: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.list- {
+  width: 100%;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+}
+.list-:hover {
+  background-color: #f8f8f8;
+}
+.main-card-body {
+  padding: 0;
+}
+p {
+  color: #8b9bad;
+  margin-bottom: 0;
+}
+label {
+  font-size: 0.8rem;
+  cursor: pointer;
+  position: relative;
+}
+.text {
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+.details {
+  display: flex;
+}
+.detail-span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.detail- {
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 14px;
+  flex: 0 1 50%;
+  color: #777;
+}
+.paginate {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  text-align: center;
+}
+.paginate p {
+  margin: 10px;
+}
+.current-page {
+  cursor: no-drop;
+}
+.next-pages {
+  cursor: pointer;
+  color: #3a56e4;
+}
+.spinner-container {
+  text-align: center;
+  margin: 20px;
+}
